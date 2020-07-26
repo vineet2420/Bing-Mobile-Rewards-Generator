@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65C61AD024CDFA8600182F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C61ACF24CDFA8600182F2F /* AppDelegate.swift */; };
+		65C61AD424CDFA8600182F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C61AD324CDFA8600182F2F /* ViewController.swift */; };
+		65C61AD724CDFA8600182F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C61AD524CDFA8600182F2F /* Main.storyboard */; };
+		65C61AD924CDFA8B00182F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C61AD824CDFA8B00182F2F /* Assets.xcassets */; };
+		65C61ADC24CDFA8B00182F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C61ADA24CDFA8B00182F2F /* LaunchScreen.storyboard */; };
+		65C61AE724CDFA8B00182F2F /* BingMobileRewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C61AE624CDFA8B00182F2F /* BingMobileRewardsTests.swift */; };
+		65C61AF224CDFA8B00182F2F /* BingMobileRewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C61AF124CDFA8B00182F2F /* BingMobileRewardsUITests.swift */; };
+		65FE5E9F24CE0C17005FDA7A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FE5E9E24CE0C17005FDA7A /* WebKit.framework */; };
+		65FE5EA124CE0E38005FDA7A /* TextFieldDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE5EA024CE0E38005FDA7A /* TextFieldDoneButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65C61AE324CDFA8B00182F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C61AC424CDFA8600182F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C61ACB24CDFA8600182F2F;
+			remoteInfo = BingMobileRewards;
+		};
+		65C61AEE24CDFA8B00182F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C61AC424CDFA8600182F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C61ACB24CDFA8600182F2F;
+			remoteInfo = BingMobileRewards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65C61ACC24CDFA8600182F2F /* BingMobileRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingMobileRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C61ACF24CDFA8600182F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65C61AD324CDFA8600182F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65C61AD624CDFA8600182F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65C61AD824CDFA8B00182F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C61ADB24CDFA8B00182F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C61ADD24CDFA8B00182F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C61AE224CDFA8B00182F2F /* BingMobileRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingMobileRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C61AE624CDFA8B00182F2F /* BingMobileRewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingMobileRewardsTests.swift; sourceTree = "<group>"; };
+		65C61AE824CDFA8B00182F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C61AED24CDFA8B00182F2F /* BingMobileRewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingMobileRewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C61AF124CDFA8B00182F2F /* BingMobileRewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingMobileRewardsUITests.swift; sourceTree = "<group>"; };
+		65C61AF324CDFA8B00182F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FE5E9E24CE0C17005FDA7A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		65FE5EA024CE0E38005FDA7A /* TextFieldDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDoneButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C61AC924CDFA8600182F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FE5E9F24CE0C17005FDA7A /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C61ADF24CDFA8B00182F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C61AEA24CDFA8B00182F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65C61AC324CDFA8600182F2F = {
+			isa = PBXGroup;
+			children = (
+				65C61ACE24CDFA8600182F2F /* BingMobileRewards */,
+				65C61AE524CDFA8B00182F2F /* BingMobileRewardsTests */,
+				65C61AF024CDFA8B00182F2F /* BingMobileRewardsUITests */,
+				65C61ACD24CDFA8600182F2F /* Products */,
+				65FE5E9D24CE0C17005FDA7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65C61ACD24CDFA8600182F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C61ACC24CDFA8600182F2F /* BingMobileRewards.app */,
+				65C61AE224CDFA8B00182F2F /* BingMobileRewardsTests.xctest */,
+				65C61AED24CDFA8B00182F2F /* BingMobileRewardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C61ACE24CDFA8600182F2F /* BingMobileRewards */ = {
+			isa = PBXGroup;
+			children = (
+				65C61ACF24CDFA8600182F2F /* AppDelegate.swift */,
+				65C61AD324CDFA8600182F2F /* ViewController.swift */,
+				65C61AD524CDFA8600182F2F /* Main.storyboard */,
+				65C61AD824CDFA8B00182F2F /* Assets.xcassets */,
+				65C61ADA24CDFA8B00182F2F /* LaunchScreen.storyboard */,
+				65C61ADD24CDFA8B00182F2F /* Info.plist */,
+				65FE5EA024CE0E38005FDA7A /* TextFieldDoneButton.swift */,
+			);
+			path = BingMobileRewards;
+			sourceTree = "<group>";
+		};
+		65C61AE524CDFA8B00182F2F /* BingMobileRewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				65C61AE624CDFA8B00182F2F /* BingMobileRewardsTests.swift */,
+				65C61AE824CDFA8B00182F2F /* Info.plist */,
+			);
+			path = BingMobileRewardsTests;
+			sourceTree = "<group>";
+		};
+		65C61AF024CDFA8B00182F2F /* BingMobileRewardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65C61AF124CDFA8B00182F2F /* BingMobileRewardsUITests.swift */,
+				65C61AF324CDFA8B00182F2F /* Info.plist */,
+			);
+			path = BingMobileRewardsUITests;
+			sourceTree = "<group>";
+		};
+		65FE5E9D24CE0C17005FDA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65FE5E9E24CE0C17005FDA7A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C61ACB24CDFA8600182F2F /* BingMobileRewards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C61AF624CDFA8B00182F2F /* Build configuration list for PBXNativeTarget "BingMobileRewards" */;
+			buildPhases = (
+				65C61AC824CDFA8600182F2F /* Sources */,
+				65C61AC924CDFA8600182F2F /* Frameworks */,
+				65C61ACA24CDFA8600182F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingMobileRewards;
+			productName = BingMobileRewards;
+			productReference = 65C61ACC24CDFA8600182F2F /* BingMobileRewards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65C61AE124CDFA8B00182F2F /* BingMobileRewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C61AF924CDFA8B00182F2F /* Build configuration list for PBXNativeTarget "BingMobileRewardsTests" */;
+			buildPhases = (
+				65C61ADE24CDFA8B00182F2F /* Sources */,
+				65C61ADF24CDFA8B00182F2F /* Frameworks */,
+				65C61AE024CDFA8B00182F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C61AE424CDFA8B00182F2F /* PBXTargetDependency */,
+			);
+			name = BingMobileRewardsTests;
+			productName = BingMobileRewardsTests;
+			productReference = 65C61AE224CDFA8B00182F2F /* BingMobileRewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65C61AEC24CDFA8B00182F2F /* BingMobileRewardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C61AFC24CDFA8B00182F2F /* Build configuration list for PBXNativeTarget "BingMobileRewardsUITests" */;
+			buildPhases = (
+				65C61AE924CDFA8B00182F2F /* Sources */,
+				65C61AEA24CDFA8B00182F2F /* Frameworks */,
+				65C61AEB24CDFA8B00182F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C61AEF24CDFA8B00182F2F /* PBXTargetDependency */,
+			);
+			name = BingMobileRewardsUITests;
+			productName = BingMobileRewardsUITests;
+			productReference = 65C61AED24CDFA8B00182F2F /* BingMobileRewardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C61AC424CDFA8600182F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Vinny Malhotra";
+				TargetAttributes = {
+					65C61ACB24CDFA8600182F2F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					65C61AE124CDFA8B00182F2F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 65C61ACB24CDFA8600182F2F;
+					};
+					65C61AEC24CDFA8B00182F2F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 65C61ACB24CDFA8600182F2F;
+					};
+				};
+			};
+			buildConfigurationList = 65C61AC724CDFA8600182F2F /* Build configuration list for PBXProject "BingMobileRewards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C61AC324CDFA8600182F2F;
+			productRefGroup = 65C61ACD24CDFA8600182F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C61ACB24CDFA8600182F2F /* BingMobileRewards */,
+				65C61AE124CDFA8B00182F2F /* BingMobileRewardsTests */,
+				65C61AEC24CDFA8B00182F2F /* BingMobileRewardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C61ACA24CDFA8600182F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C61ADC24CDFA8B00182F2F /* LaunchScreen.storyboard in Resources */,
+				65C61AD924CDFA8B00182F2F /* Assets.xcassets in Resources */,
+				65C61AD724CDFA8600182F2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C61AE024CDFA8B00182F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C61AEB24CDFA8B00182F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C61AC824CDFA8600182F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FE5EA124CE0E38005FDA7A /* TextFieldDoneButton.swift in Sources */,
+				65C61AD424CDFA8600182F2F /* ViewController.swift in Sources */,
+				65C61AD024CDFA8600182F2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C61ADE24CDFA8B00182F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C61AE724CDFA8B00182F2F /* BingMobileRewardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C61AE924CDFA8B00182F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C61AF224CDFA8B00182F2F /* BingMobileRewardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C61AE424CDFA8B00182F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C61ACB24CDFA8600182F2F /* BingMobileRewards */;
+			targetProxy = 65C61AE324CDFA8B00182F2F /* PBXContainerItemProxy */;
+		};
+		65C61AEF24CDFA8B00182F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C61ACB24CDFA8600182F2F /* BingMobileRewards */;
+			targetProxy = 65C61AEE24CDFA8B00182F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65C61AD524CDFA8600182F2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C61AD624CDFA8600182F2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65C61ADA24CDFA8B00182F2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C61ADB24CDFA8B00182F2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65C61AF424CDFA8B00182F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65C61AF524CDFA8B00182F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C61AF724CDFA8B00182F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6VP8S5VUM;
+				INFOPLIST_FILE = BingMobileRewards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinny.BingMobileRewards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		65C61AF824CDFA8B00182F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6VP8S5VUM;
+				INFOPLIST_FILE = BingMobileRewards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinny.BingMobileRewards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		65C61AFA24CDFA8B00182F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6VP8S5VUM;
+				INFOPLIST_FILE = BingMobileRewardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinny.BingMobileRewardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingMobileRewards.app/BingMobileRewards";
+			};
+			name = Debug;
+		};
+		65C61AFB24CDFA8B00182F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6VP8S5VUM;
+				INFOPLIST_FILE = BingMobileRewardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinny.BingMobileRewardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingMobileRewards.app/BingMobileRewards";
+			};
+			name = Release;
+		};
+		65C61AFD24CDFA8B00182F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6VP8S5VUM;
+				INFOPLIST_FILE = BingMobileRewardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinny.BingMobileRewardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingMobileRewards;
+			};
+			name = Debug;
+		};
+		65C61AFE24CDFA8B00182F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6VP8S5VUM;
+				INFOPLIST_FILE = BingMobileRewardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinny.BingMobileRewardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingMobileRewards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C61AC724CDFA8600182F2F /* Build configuration list for PBXProject "BingMobileRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C61AF424CDFA8B00182F2F /* Debug */,
+				65C61AF524CDFA8B00182F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C61AF624CDFA8B00182F2F /* Build configuration list for PBXNativeTarget "BingMobileRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C61AF724CDFA8B00182F2F /* Debug */,
+				65C61AF824CDFA8B00182F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C61AF924CDFA8B00182F2F /* Build configuration list for PBXNativeTarget "BingMobileRewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C61AFA24CDFA8B00182F2F /* Debug */,
+				65C61AFB24CDFA8B00182F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C61AFC24CDFA8B00182F2F /* Build configuration list for PBXNativeTarget "BingMobileRewardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C61AFD24CDFA8B00182F2F /* Debug */,
+				65C61AFE24CDFA8B00182F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65C61AC424CDFA8600182F2F /* Project object */;
+}
